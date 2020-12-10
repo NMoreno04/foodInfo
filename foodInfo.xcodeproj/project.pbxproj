@@ -14,6 +14,7 @@
 		E505DC9D258015DF000D16DF /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505DC9C258015DF000D16DF /* FoodItem.swift */; };
 		E505DCA025801729000D16DF /* FoodItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505DC9F25801729000D16DF /* FoodItemDetail.swift */; };
 		E5CE217F25825DBF003FAF6E /* MealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE217E25825DBF003FAF6E /* MealType.swift */; };
+		E5CE2183258263FC003FAF6E /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE2182258263FC003FAF6E /* MealDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E505DC9C258015DF000D16DF /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		E505DC9F25801729000D16DF /* FoodItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemDetail.swift; sourceTree = "<group>"; };
 		E5CE217E25825DBF003FAF6E /* MealType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealType.swift; sourceTree = "<group>"; };
+		E5CE2182258263FC003FAF6E /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E505DC9C258015DF000D16DF /* FoodItem.swift */,
 				E505DC9F25801729000D16DF /* FoodItemDetail.swift */,
 				E5CE217E25825DBF003FAF6E /* MealType.swift */,
+				E5CE2182258263FC003FAF6E /* MealDetail.swift */,
 			);
 			path = foodInfo;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				E5CE217F25825DBF003FAF6E /* MealType.swift in Sources */,
 				E505DC9D258015DF000D16DF /* FoodItem.swift in Sources */,
 				E505DCA025801729000D16DF /* FoodItemDetail.swift in Sources */,
+				E5CE2183258263FC003FAF6E /* MealDetail.swift in Sources */,
 				E505DC782579C3A5000D16DF /* ContentView.swift in Sources */,
 				E505DC762579C3A5000D16DF /* foodInfoApp.swift in Sources */,
 			);
