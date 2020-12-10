@@ -16,7 +16,13 @@ struct ContentView: View {
         NavigationView {
             
             List(meals) { meal in
-                Text(meal.name)
+                NavigationLink(
+                    destination:  Text(meal.name),
+                    label: {
+                        Text(meal.name)
+                    })
+                
+               
                 
             }
             .navigationTitle("foodInfo")
