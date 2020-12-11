@@ -13,6 +13,8 @@ struct MealDetail: View {
     
     @State var selectedItem = 0
     
+    @Binding var consumedItems: [Consumed]
+    
     var body: some View {
         
         VStack {
@@ -26,6 +28,19 @@ struct MealDetail: View {
                             Text(meal.items[index].name)
                         }
                 })
+                
+                
+                Button(action: {
+                    consumedItems.append(Consumed(item: meal.items[selectedItem],
+                                                  mealType: meal.name))
+                    print(consumedItems)
+                }, label: {
+                    Text("Add item")
+                })
+                
+                
+                
+                
             }
             
             Spacer()
@@ -37,12 +52,3 @@ struct MealDetail: View {
     
 }
 
-struct MealDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        
-        NavigationView {
-            
-            MealDetail(meal: definedMeals[1])
-        }
-    }
-}

@@ -15,6 +15,7 @@
 		E505DCA025801729000D16DF /* FoodItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505DC9F25801729000D16DF /* FoodItemDetail.swift */; };
 		E5CE217F25825DBF003FAF6E /* MealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE217E25825DBF003FAF6E /* MealType.swift */; };
 		E5CE2183258263FC003FAF6E /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE2182258263FC003FAF6E /* MealDetail.swift */; };
+		E5CE21862583F065003FAF6E /* Consumed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE21852583F065003FAF6E /* Consumed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E505DC9F25801729000D16DF /* FoodItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemDetail.swift; sourceTree = "<group>"; };
 		E5CE217E25825DBF003FAF6E /* MealType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealType.swift; sourceTree = "<group>"; };
 		E5CE2182258263FC003FAF6E /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		E5CE21852583F065003FAF6E /* Consumed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E505DC9F25801729000D16DF /* FoodItemDetail.swift */,
 				E5CE217E25825DBF003FAF6E /* MealType.swift */,
 				E5CE2182258263FC003FAF6E /* MealDetail.swift */,
+				E5CE21852583F065003FAF6E /* Consumed.swift */,
 			);
 			path = foodInfo;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				E5CE217F25825DBF003FAF6E /* MealType.swift in Sources */,
 				E505DC9D258015DF000D16DF /* FoodItem.swift in Sources */,
 				E505DCA025801729000D16DF /* FoodItemDetail.swift in Sources */,
+				E5CE21862583F065003FAF6E /* Consumed.swift in Sources */,
 				E5CE2183258263FC003FAF6E /* MealDetail.swift in Sources */,
 				E505DC782579C3A5000D16DF /* ContentView.swift in Sources */,
 				E505DC762579C3A5000D16DF /* foodInfoApp.swift in Sources */,

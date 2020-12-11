@@ -11,6 +11,8 @@ struct ContentView: View {
     
     @State private var meals = definedMeals
     
+    @State private var consumedItems: [Consumed] = []
+    
     //The body property at the top level, must contain ONE and only ONE view.
     var body: some View {
         NavigationView {
@@ -19,7 +21,8 @@ struct ContentView: View {
                 
                 
                 NavigationLink(
-                    destination: MealDetail(meal: meal),
+                    destination: MealDetail(meal: meal,
+                                            consumedItems: $consumedItems),
                     label: {
                         Text(meal.name)
                     })
