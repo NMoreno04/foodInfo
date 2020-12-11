@@ -46,7 +46,21 @@ struct MealDetail: View {
                 
                 Section {
                     List(consumedItems) { consumed in
-                        Text(consumed.item.name)
+                        VStack {
+                            HStack {
+                                Text(consumed.item.name)
+                                    .fontWeight(.semibold)
+                                Spacer()
+                            }
+                            
+                            
+                            HStack {
+                                Text("C: \(consumed.item.calories, specifier: "%.1f")")
+                                Spacer()
+
+                            }
+
+                        }
                     }
                 }
                 
