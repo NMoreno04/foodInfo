@@ -45,7 +45,11 @@ struct MealDetail: View {
                 
                 
                 Section {
-                    List(consumedItems) { consumed in
+                    //  List only consumed items that were consumed at this meal type 
+                    List(consumedItems.filter({ (value: Consumed) -> Bool in
+                                            return value.mealType == meal.name
+                                        }))
+                    { consumed in
                         VStack {
                             HStack {
                                 Text(consumed.item.name)
