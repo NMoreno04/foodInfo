@@ -15,7 +15,7 @@ struct MealType: Identifiable {
 }
 
 var definedMeals: [MealType] = [
-    MealType(name: "Water"),
+//    MealType(name: "Water"),
     MealType(name: "Breakfast", items: [
         FoodItem(name: "Eggs", calories: 155, protein: 13, carbohydrates: 1.1),
         FoodItem(name: "Cereal with milk", calories: 182 , protein: 13.2, carbohydrates: 82.5),

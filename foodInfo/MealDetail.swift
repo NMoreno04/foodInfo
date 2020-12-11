@@ -11,12 +11,22 @@ struct MealDetail: View {
     
     var meal: MealType
     
+    @State var selectedItem = 0
     
     var body: some View {
         
         VStack {
             Text("What did you have for \(meal.name.lowercased())?")
             
+            Form {
+                Picker(selection: $selectedItem,
+                       label: Text("I ate..."),
+                       content: {
+                        ForEach(0 ..< meal.items.count) { index in
+                            Text(meal.items[index].name)
+                        }
+                })
+            }
             
             Spacer()
         }
